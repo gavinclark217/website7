@@ -18,5 +18,7 @@ body {
     border: 0;
     border-radius: 5px;
     font-family: 'Montserrat', sans-serif;
-    padding: 
+    margin: 1rem;
+    padding: 1.5rem 3rem;
+    font-size: 1.2rem;
 }
