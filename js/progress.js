@@ -1,6 +1,6 @@
 const prev = document.getElementById('prev')
 const next = document.getElementById('next')
-const progresss = document.getElementById('progress')
+const progress = document.getElementById('progress')
 const circles = document.querySelectorAll('.circle')
 
 let currentActive = 1
