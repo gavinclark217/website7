@@ -1,2 +1,5 @@
 const counters = document.querySlectorAll('.counter')
-const 
+
+counters.forEach(counter => {
+    counter.innerText = '0'
+})
