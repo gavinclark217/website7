@@ -23,6 +23,8 @@ body {
 }
 
 .square:hover {
+    height: 18px;
+    width: 18px;
     transition-duration: 0s;
 
 }
