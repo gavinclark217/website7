@@ -11,20 +11,18 @@ body {
 .container {
     display: flex;
     flex-wrap: wrap;
-    max-width: 400px;
+    max-width: 1288px;
 }
 
 .square {
-    height: 16px;
-    width: 16px;
+    height: 17px;
+    width: 17px;
     margin: 2px;
     background-color: #2d2d2d;
     transition: 2s ease;
 }
 
 .square:hover {
-    height: 18px;
-    width: 18px;
     transition-duration: 0s;
 
 }
