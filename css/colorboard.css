@@ -1,9 +1,22 @@
 body {
-    background-color: #111111;
+    background-color: #222222;
     display: flex;
     height: 100vh;
     align-items: center;
     justify-content: center;
     margin: 0;
     overflow: hidden;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 400px;
+}
+
+.square {
+    height: 16px;
+    width: 16px;
+    margin: 2px;
+    background-color: #2d2d2d;
 }
