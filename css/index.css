@@ -19,7 +19,6 @@ body {
 
 .header {
     position: absolute;
-    justify-content: center;
     transform: translateY(-300%);
 }
 
