@@ -7,5 +7,12 @@ let speed = 300 / speedE1.val
 writeText()
 
 function writeText() {
-    textE1.innerText = text.slice(0,2,)
+    textE1.innerText = text.slice(0,idx)
+    idx++
+
+    if (idx > text.length) {
+        idx - 1
+    }
+
+    setTimeout(writeText, speed)
 }
