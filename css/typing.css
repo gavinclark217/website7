@@ -14,7 +14,7 @@ body {
 div {
     position: absolute;
     bottom: 20px;
-    background: rgba(0,0,0,1)
+    background: rgba(0,0,0,1);
     padding: 10px 20px;
     font-size: 18px;
 }
@@ -26,5 +26,5 @@ input {
     background-color: darksalmon;
     border: none;
     text-align: center;
-    
+
 }
