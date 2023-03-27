@@ -11,7 +11,7 @@ function writeText() {
     idx++
 
     if (idx > text.length) {
-        idx - 1
+        idx = 1
     }
 
     setTimeout(writeText, speed)
